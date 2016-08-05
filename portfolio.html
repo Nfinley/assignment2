@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- Author: Nigel Finley, August 2016. This is assighment 1 of the second homework assignement in the UT Bootcamp assigned the second week of class (July 20th, 2016). It consists of taking the first portfolio page and using media queries to scale the page. 
+ -->
+
+ 
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nigel Finley Portfolio</title>
+    <!-- This style sheet helps with browser inconsistencies -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- This links your CSS style sheet to your html pages -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <!-- A header-container that is the width of the project requirements, to make the content align -->
+        <div class="header-container">
+            <!-- Header line for the page -->
+            <h1> Nigel Finley </h1>
+            <!-- Nav bar for page -->
+            <nav>
+                <a href="main.html">About</a> | <a href="portfolio.html">Portfolio</a> | <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <!-- This section contains the bio information; figure out how to make this work for all html pages -->
+        <section class="main-section">
+            <!--Main section header -->
+            <h2> Portfolio </h2>
+            <hr>
+            <!--This creates a solid grey line  -->
+            <!-- Portfolio page using image links and banners over the images -->
+            <div class="image-container">
+                <div class="portfolio-left">
+                    <a href="#"><img src="assets/images/hangman2.jpg" alt="Hangman">
+                        <h4>Hangman</h4></a>
+                </div>
+                <div class="portfolio-right">
+                    <a href="#"><img src="assets/images/RPG.jpg" alt="RPG Game">
+                        <h4>RPG Game</h4></a>
+                </div>
+                <div class="portfolio-left">
+                    <a href="#"><img src="assets/images/trivia.jpg" alt="Trivia Game">
+                        <h4>Trivia Game</h4></a>
+                </div>
+                <div class="portfolio-right">
+                    <a href="#"><img src="assets/images/rutgers.jpg" alt="Rutgers Info Widget">
+                        <h4>Rutgers Info Widget</h4></a>
+                </div>
+                <div class="portfolio-left">
+                    <a href="#"><img src="assets/images/rockpaper.jpg" alt="Rock Paper Scissors">
+                        <h4>Rock Paper Scissors</h4></a>
+                </div>
+            </div>
+        </section>
+        <!-- This section contains the contact information section including linkedin, github and finleycode blog -->
+        <aside>
+            <div class="aside-content">
+                <!-- Header for the aside content -->
+                <h3> Connect with Me</h3>
+                <!-- This is a solid grey line -->
+                <hr>
+                <!-- Image links to my pages, including github, linkedin and personal blog page -->
+                <a href="https://github.com/Nfinley/" class="github"><img src="assets/images/github-round.png" alt="Github Account"></a>
+                <a href="https://www.linkedin.com/in/nfinleymusic" class="linkedin"><img src="assets/images/LinkedIn-Icon.png" alt="LinkedIn Account"></a>
+                <a href="http://thefinleycode.com" class="blog"><img src="assets/images/Blog-Icon.png" alt="The Finley Code Blog"></a>
+            </div>
+        </aside>
+        <!-- For the sticky footer -->
+        <div class="push"></div>
+    </div>
+  
+    <!-- This is the footer which needs to contain a copyright notice and my name. -->
+    <footer>
+        <p class="footer"> &copy; Copyright 2016 Nigel Finley </p>
+    </footer>
+</body>
+
+</html>
