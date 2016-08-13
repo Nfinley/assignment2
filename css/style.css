@@ -1,3 +1,26 @@
 /*Adding own css style to the 
 preexsting Bootstrap styles*/
 
+
+.jumbotron {
+	background-color: transparent !important;
+	color: black;
+}
+.form-horizontal {
+    margin-top: 40px;
+}
+
+#contact-btn {
+    
+    color:#1C70AA;
+    text-align: center;
+}
+
+hr .noteLine {
+    color: white;
+}
+
+.center-block {
+    text-align: center;
+    margin-top: 40px;
+}

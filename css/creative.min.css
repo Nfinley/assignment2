@@ -208,8 +208,8 @@ aside {
 
 video {
   position: relative;
-  z-index: -1;
-  opacity: .8;
+  z-index: -1000;
+  opacity: .9;
   width:100%;
   height: 100%;
   background-color: rgb(86, 144, 184);
@@ -223,15 +223,14 @@ header {
     -o-background-size: cover;
     background-position: center;
     color: #fff;
-  
-    /*background-image: url(../img/headervinyl.png);*/
+/*    background-image: url(../img/vinylplayer.jpg);*/
 }
 
 header .header-content {
     padding: 100px 15px;
 }
 
-header .header-content .header-content-inner h1 {
+header .header-content .header-content-inner h1 .jumbotron {
     font-weight: 700;
     text-transform: uppercase;
     margin-top: 0;
@@ -243,7 +242,7 @@ header .header-content .header-content-inner hr {
     margin: 30px auto
 }
 
-header .header-content .header-content-inner p {
+header .header-content .header-content-inner p .jumbotron p {
     font-weight: 300;
     color: rgba(255, 255, 255, .7);
     font-size: 16px;
@@ -516,21 +515,4 @@ img::-moz-selection {
     background: 0 0
 }
 
-.form-horizontal {
-    margin-top: 40px;
-}
 
-#contact-btn {
-    
-    color:#1C70AA;
-    text-align: center;
-}
-
-hr .noteLine {
-    color: white;
-}
-
-.center-block {
-    text-align: center;
-    margin-top: 40px;
-}
