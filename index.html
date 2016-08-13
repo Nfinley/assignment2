@@ -60,6 +60,7 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
+    <!-- Old header - not using but keeping for future reference -->
     <!-- <header>
         <div class="header-content">
            <div class="header-content-inner">
@@ -69,26 +70,31 @@
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">About Me</a>
             </div>
     </header> -->
-<header>
-    <div class="header-container">
-    <div class="video-container">
-        <video preload="true" autoplay loop volume="0" poster="img/headervinyl.png">
-            <source src="video/headervinyl.mp4" type="video/mp4">
-            <source src="video/headervinyl.webm" type="video/webm">
-            <source src="video/headervinyl.ogv" type="video/ogg">
-           
-        </video>
-         <div class="jumbotron">
-           <h1 id="homeHeading">Hello! I'm Nigel Finley</h1>
-                <hr>
-                <p>Check out my bio and portfolio below</p>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">About Me</a>
+    <header>
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+                <div class="header-container">
+                    <div class="video-container">
+                        <video preload="true" autoplay loop volume="0" poster="img/headervinyl.png">
+                            <source src="video/headervinyl.mp4" type="video/mp4">
+                            <source src="video/headervinyl.webm" type="video/webm">
+                            <source src="video/headervinyl.ogv" type="video/ogg">
+                        </video>
+                        <div class="col-sm-2 col-md-2 col-lg-2"></div>
+                        <div class="col-sm-8 col-md-8 col-lg-8">
+                            <div class="jumbotron">
+                                <h1 id="homeHeading">Hello! I'm Nigel Finley</h1>
+                                <hr>
+                                <p>Check out my bio and portfolio below</p>
+                                <a href="#about" class="btn btn-primary btn-xl page-scroll">About Me</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-2 col-md-2 col-lg-2"></div>
+                    </div>
+                </div>
             </div>
-    </div>
-    </div>
-    </div>
-</header>
-
+        </div>
+    </header>
     <!-- End of header container -->
     <section class="bg-primary" id="about">
         <div class="container">
@@ -108,6 +114,7 @@
             </div>
         </div>
     </section>
+    <!-- Not using services but will put back in once gain more experience -->
     <!--  <section id="services">
         <div class="container">
             <div class="row">
@@ -303,10 +310,10 @@
                     </div>
                     <div class="form-group">
                         <label for="exampleInputText">Message</label>
-                            <textarea type="text area" class="form-control" id="exampleInputText" placeholder="Text"></textarea>
+                        <textarea type="text area" class="form-control" id="exampleInputText" placeholder="Text"></textarea>
                     </div>
                     <div class="center-block">
-                    <button type="submit" class="btn btn-default btn-xl sr-button " id="contact-btn">Submit</button>
+                        <button type="submit" class="btn btn-default btn-xl sr-button " id="contact-btn">Submit</button>
                     </div>
                 </form>
             </div>

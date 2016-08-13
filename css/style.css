@@ -27,3 +27,10 @@ hr .noteLine {
     text-align: center;
     margin-top: 40px;
 }
+
+@media (min-width:768px) {
+
+.jumbotron {
+	bottom: 300px;
+	
+	}
