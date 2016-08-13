@@ -5,6 +5,9 @@ preexsting Bootstrap styles*/
 .jumbotron {
 	background-color: transparent !important;
 	color: black;
+	position: relative;
+	bottom: 500px;
+	color: white;
 }
 .form-horizontal {
     margin-top: 40px;
